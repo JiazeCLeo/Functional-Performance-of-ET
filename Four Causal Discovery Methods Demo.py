@@ -38,7 +38,6 @@ start_date = '2023-01-01'
 
 date_range = pd.date_range(start=start_date, periods=len(df), freq='H')
 
-# 将日期范围设置为DataFrame的索引
 df.index = date_range
 
 
