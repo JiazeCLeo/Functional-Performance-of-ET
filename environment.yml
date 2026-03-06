@@ -1,0 +1,17 @@
+name: causal_demo
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - statsmodels
+  - seaborn
+  - pip
+  - pip:
+      - pyinform
+      - tigramite
