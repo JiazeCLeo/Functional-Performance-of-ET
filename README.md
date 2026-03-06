@@ -14,7 +14,7 @@ We provided four causal discovery methods including:
 - PCMCI
 - Convergent Cross Mapping (CCM)
 
-This project requires the following Python libraries as referenced in the file [environment.yml](./environment.yml):
+The required Python dependencies are specified in the file [environment.yml](./environment.yml), including:
 - numpy
 - pandas
 - matplotlib
@@ -23,5 +23,17 @@ This project requires the following Python libraries as referenced in the file [
 - pyinform
 - seaborn
 - tigramite
-
+Readers are encouraged to explore the demo workflow and adapt these causal discovery methods to their own datasets and research applications.
 ---
+
+# Evapotranspiration dataset
+
+This research utilizes two datasets:
+
+- **Temporal Functional Performance Analysis Data (30-Minute Interval)**
+- **OpenET Functional Performance Data (Daily Interval)**
+
+The processed datasets used in this study are publicly available via  
+[HydroShare](https://www.hydroshare.org/resource/0ef3eda3534f44a6bbd65786d57222ea/).
+
+Users are encouraged to download the data directly from HydroShare and follow the demo workflow provided in this repository.
