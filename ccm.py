@@ -82,7 +82,7 @@ class ccm:
 
         dist_t = dists[t_ind].squeeze()  # distances from vector at time t
 
-        # 确保 dist_t 至少是一维数组
+
         if dist_t.ndim == 0:
             dist_t = np.array([dist_t])
 
@@ -258,5 +258,6 @@ class ccm:
             ax.set_ylabel('$X_{t-1}$, $Y_{t-1}$', size=15)               
         plt.show()
         
+
 
 
