@@ -33,7 +33,25 @@ This research utilizes two datasets:
 - **Temporal Functional Performance Analysis Data (30-Minute Interval)**
 - **OpenET Functional Performance Data (Daily Interval)**
 
-The processed datasets used in this study are publicly available via  
-[HydroShare](https://www.hydroshare.org/resource/0ef3eda3534f44a6bbd65786d57222ea/).
+The processed datasets used in this study are publicly available via [HydroShare](https://www.hydroshare.org/resource/0ef3eda3534f44a6bbd65786d57222ea/).
 
 Users are encouraged to download the data directly from HydroShare and follow the demo workflow provided in this repository.
+
+---
+
+# Latent Heat Model
+
+This study applies the **Priestley–Taylor (PT)** and **Surface Flux Equilibrium (SFE)** methods to simulate latent heat flux.
+
+The model implementations are provided in [LEfunctions.py](./LEfunctions.py).
+
+### Implemented Functions
+
+- `fun_LEPT`  
+  Implements the **Priestley–Taylor (PT)** method for latent heat estimation.
+
+- `fun_LESFE`  
+  Implements the original **Surface Flux Equilibrium (SFE)** formulation, which neglects ground heat flux.
+
+- `fun_LESFE_Mod`  
+  Implements a modified SFE formulation that incorporates ground heat flux, enabling a consistent and comparable evaluation across models.
