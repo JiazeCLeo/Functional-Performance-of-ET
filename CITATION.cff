@@ -1,0 +1,9 @@
+cff-version: 1.0
+message: "If you use this code, please cite it as below."
+authors:
+  - family-names: Cao
+    given-names: Jiaze
+title: Causal Discovery Methods for Functional Performance of Evapotranspiration Models
+version: 1.0
+doi: 10.5281/zenodo.20635258
+date-released: 2026-06-11
